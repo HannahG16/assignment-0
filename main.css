@@ -17,5 +17,10 @@ img{
     border-radius: 30%;
     border-style: groove;
     border-width: 1px;
-    border-color: black;
+    border-color: whitesmoke;
+}
+
+.hoverImage :hover {
+    opacity: 0.4;
+    
 }
