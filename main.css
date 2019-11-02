@@ -1,0 +1,11 @@
+
+.container {
+    width:100%;
+}
+
+
+.container h1 {
+    font-family: 'McLaren', cursive;
+    text-align: center;
+    padding-top: 1em;
+}
