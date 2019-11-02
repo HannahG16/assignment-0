@@ -1,11 +1,21 @@
 
+body {
+    text-align: center;
+}
+
 .container {
     width:100%;
 }
 
-
 .container h1 {
     font-family: 'McLaren', cursive;
-    text-align: center;
     padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+img{
+    border-radius: 30%;
+    border-style: groove;
+    border-width: 1px;
+    border-color: black;
 }
