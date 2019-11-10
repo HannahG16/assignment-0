@@ -3,14 +3,48 @@ body {
     text-align: center;
 }
 
+.navigation {
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    font-family: 'McLaren',cursive;
+    font-weight: bolder;
+    
+}
+  
+.navigation ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+  }
+  
+.navigation ul li {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+.navigation ul li:hover {
+    background:rgba(61, 214, 219,0.3);
+  }
+  
+.navigation ul li a {
+    color: #111;
+    text-decoration: none;
+  }
+
+
 .container {
     width:100%;
+    height: 500px;
+    /*https://cssgradient.io/*/
+    background: rgb(61, 214, 219);
+    background: linear-gradient(22deg, rgba(61, 214, 219,0.4458158263305322) 0%, rgba(234,241,244,0.5578606442577031) 100%);
 }
 
 .container h1 {
     font-family: 'McLaren', cursive;
     padding-top: 1em;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 
 img{
@@ -27,4 +61,6 @@ img{
 
 .container h3 {
     font-family: 'McLaren', cursive;
+    padding-top: 1em;
+    font-weight: bolder;
 }
