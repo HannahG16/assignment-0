@@ -18,7 +18,8 @@ body {
   
 .navigation ul li {
     display: inline-block;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-weight: bolder;
     border-right: 1px solid #aaa ;
   }
@@ -69,4 +70,12 @@ img{
     font-family: 'McLaren', cursive;
     padding-top: 1em;
     font-weight: bolder;
+    padding-bottom: 0px;
+}
+
+.icon {
+    padding-right: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+    border: none;
 }
