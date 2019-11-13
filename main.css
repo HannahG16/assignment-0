@@ -39,7 +39,13 @@ body {
     text-decoration: none;
   }
 
+.navigation a:hover {
+    border-bottom: 4px solid black;
+}
 
+.navigation a:active {
+    border-bottom: 4px solid black;
+}
 
 
 .container {
@@ -57,8 +63,8 @@ body {
 .profile_picture{
     border-radius: 30%;
     border-style: groove;
-    border-width: 0.5px;
-    border-color: wheat;
+    border-width: 4px;
+    border-color: black;
 }
 
 .hoverImage :hover {
