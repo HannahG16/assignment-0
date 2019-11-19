@@ -47,7 +47,7 @@
 
 :root {
     font-size: 75.5%;
-    font-family: 'montserrat', sans-serif;
+    font-family: 'mcLaren', sans-serif;
 }
 
 h1 {
@@ -68,14 +68,13 @@ hr {
 
 .container {
     width: 100%; 
-    height: auto 0;
+    height: 800px;
     background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 }
 
 .gallery-item {
     max-width: 100%;
     border-radius: 5px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
     transition: all .3s;
     overflow: hidden;
     position: relative;
@@ -83,9 +82,11 @@ hr {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 1.5rem;
-    grid-auto-rows: minmax(150px, auto);
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 4rem;
+    grid-auto-rows: minmax(100px, auto);
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .image {
@@ -122,9 +123,10 @@ hr {
 
 .text {
     color: white;
-    font-size: 2.5em;
-    padding: 16px 32px;
-    font-family: 'oswald', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 15px 10px;
+    font-family: 'mcLaren', sans-serif;
 }
 
 @media (max-width: 500px){
