@@ -15,13 +15,17 @@ padding to the top and bottom to give some white space */
     padding-top: 10px;
     padding-bottom: 10px;
 }
-  
+
+/* sets the unorder list margin to 0 auto, sets the padding to 0 and sets the list style to none */
 .navigation ul {
     margin: 0 auto;
     padding: 0;
     list-style: none;
   }
   
+/* sets the list object and the list and the navigation class to display inline block, adds padding left
+and right to add some white space and sets the font weight to bold. the border right creats a 4px solid
+border each right side of the li objects this creates a divide between each page link */
 .navigation ul li {
     display: inline-block;
     padding-left: 10px;
@@ -30,14 +34,18 @@ padding to the top and bottom to give some white space */
     border-right: 1px solid #aaa ;
   }
 
+/* removes the border from the right side of the last list item  */
  .navigation li:last-child {
      border-right: none;
  } 
   
+/* sets the background colour when the li items are hovered over */
 .navigation ul li:hover {
     background-color: rgba(254, 214, 227, 0.4);
   }
   
+/* sets the links within the list to the colour black and sets the text decoration to none to stop 
+the automatic styling of the tag */
 .navigation ul li a {
     color: #111;
     text-decoration: none;
@@ -55,7 +63,7 @@ at the bottom  */
     border-bottom: 4px solid black;
 }
 
-/*  Partly Author- Liz Coulter-Smith Date- 14/11/19 Northampton University 
+/*  Partly Author- Liz Coulter-Smith Date- 14/11/19 Northampton University https://nile.northampton.ac.uk/
 sets the cotainers dimensions, alligns the content to the center, adds a linear gradient 
 to the background which is semi transparent allowing the video to be seen behind it, 
 adds a margin to the bottom, positions to relative and hids any overflow, makes the minimum 
@@ -79,7 +87,7 @@ height it can be 75vh to make sure it doesnt lose layout if on a different scree
     min-height: 75vh;
 }
 
-/*  Author- Liz Coulter-Smith Date- 14/11/19 Northampton University */
+/*  Author- Liz Coulter-Smith Date- 14/11/19 Northampton University https://nile.northampton.ac.uk/*/
 .video-bg {
     position: absolute;
     z-index: -1;
@@ -124,6 +132,8 @@ and adding padding to the  top to create equal spacing between the profile pictu
 }
 
 
+/* styles the icon class by adding padding to the right and left, takes off the underline 
+put on by the link by setting the text decoration to none, and sets the border to none */
 .icon {
     padding-right: 5px;
     padding-left: 5px;
