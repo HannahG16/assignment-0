@@ -177,7 +177,8 @@ with 20pxpadding on the bottom to add spacing. the background image is set to a 
     background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 }
 
-/* styles the gallery item class to set the width,   */
+/* styles the gallery item class to set the width to 100% of the page. adds a border radius of 5px to round the 
+corners and transitions it at .3s, the overflow is hidden and position is relative    */
 .gallery-item {
     max-width: 100%;
     border-radius: 5px;
@@ -186,7 +187,9 @@ with 20pxpadding on the bottom to add spacing. the background image is set to a 
     position: relative;
 }
 
-
+/* sets the gallery class to display in grid form, forms the grid columns to auto fit into the set width, 
+in the size stated below. adding a grid gap between each column and sets the row to 100px. padding is added 
+for spacing */
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
