@@ -148,6 +148,9 @@ put on by the link by setting the text decoration to none, and sets the border t
     font-family: 'mcLaren', sans-serif;
 }
 
+/* styles the h1 element of the container2 class in the portfolio, sets the font size to 30px, the font
+to bold and aligns it in the center. the font family is mcLaren the google font and the colour black. 
+padding is added at the top to add spacing between the cotainer colour and the text. */
 .container2 h1 {
     font-size: 30px;
     font-weight: bolder;
@@ -158,13 +161,15 @@ put on by the link by setting the text decoration to none, and sets the border t
 
 }
 
+/* styles the hr element to add a margin to the top and bottom and sets the border to 0 */
 hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+/* styles the container2 class to have the width of the full browser, the height to auto to fit the contents
+with 20pxpadding on the bottom to add spacing. the background image is set to a linear gradient */
 .container2 {
     width: 100%; 
     height: auto 0;
@@ -172,6 +177,7 @@ hr {
     background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 }
 
+/* styles the gallery item class to set the width,   */
 .gallery-item {
     max-width: 100%;
     border-radius: 5px;
@@ -179,6 +185,7 @@ hr {
     overflow: hidden;
     position: relative;
 }
+
 
 .gallery {
     display: grid;
@@ -189,6 +196,9 @@ hr {
     padding-right: 20px;
 }
 
+/* styles the image class given to hold the images, the opacity is 1 and the display set to block to fill
+the whole width of the class. the width and height are both set along with the transition to ease in in .5
+seconds. the backface is hidden and the object will cover the class. */
 .image {
     opacity: 1;
     display: block;
@@ -199,6 +209,9 @@ hr {
     object-fit: cover;
 }
 
+/* the middle class holds the text, the transition is set to 0.5 and the position to aboslute, the top
+and left set how far the class is offset from the containing class. the the transform moves if - 50 % down and 
+across and the text is alligned in the center */
 .middle {
     transition: .5s ease;
     opacity: 0;
@@ -209,18 +222,24 @@ hr {
     text-align: center;
 }
 
+/* when the imgage in gallery item class is hovered over the image is grayscaled */
 .gallery-item:hover .image {
     filter: grayscale(1);
 }
 
+/* when the miidle class in the gallery item class is hovered over it sets the opacity to 1 to make it
+seem like the text is appearing */
 .gallery-item:hover .middle {
     opacity: 1;
 }
 
+/* when the gallery item is hovered over a shadow is added to the edges with a 0.8 alpha value */
 .gallery-item:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
 }
 
+/* styles the text class which holds the project name, sets the colour to white and the font size
+and font weight. adds padding  to help position and sets the font family as mcLaren */
 .text {
     color: white;
     font-size: 16px;
