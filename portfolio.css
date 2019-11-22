@@ -1,56 +1,13 @@
-.navigation {
-    width: 100%;
-    height: 30px;
-    text-align: right;
-    font-family: 'McLaren',cursive;
-    font-size: 20px;
-    padding-top: 10px;
-}
-  
-.navigation ul {
-    margin: 0 auto;
-    padding: 0;
-    list-style: none;
-  }
-  
-.navigation ul li {
-    display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-weight: bolder;
-    border-right: 1px solid #aaa ;
-  }
-
- .navigation li:last-child {
-     border-right: none;
- } 
-  
-.navigation ul li:hover {
-    background-color: rgba(254, 214, 227, 0.4);
-  }
-  
-.navigation ul li a {
-    color: #111;
-    text-decoration: none;
-  }
-
-.navigation a:hover {
-    border-bottom: 4px solid black;
-}
-
-.navigation a:active {
-    border-bottom: 4px solid black;
-}
 
 
 
-
+/* Author- Liz Coulter-Smith Date- 14/11/19 Northampton University https://nile.northampton.ac.uk/--> */
 :root {
     font-size: 75.5%;
     font-family: 'mcLaren', sans-serif;
 }
 
-h1 {
+.container2 h1 {
     font-size: 30px;
     font-weight: bolder;
     text-align: center;
@@ -67,7 +24,7 @@ hr {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.container {
+.container2 {
     width: 100%; 
     height: auto 0;
     padding-bottom: 20px;
